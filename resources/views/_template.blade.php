@@ -15,15 +15,13 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-info mb-4">
-            <a class="navbar-brand" href="{{ url('/') }}">Teste Foursys</a>
+            <a class="navbar-brand" href="{{ url('/') }}"> <i class="fa fa-user"></i> Gerenciamento de Usuários </a>
         </nav>
     </header>
     <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-md-11">
-                <div class="center">
                     @yield('content')
-                </div>
             </div>
         </div>
     </div>

@@ -7,6 +7,11 @@ use Illuminate\Database\Eloquent\Model;
 class User extends Model
 {
     protected $table = 'users';
+    protected $dates = 
+    [
+        'data_nascimento',
+        'created_at'
+    ];
     protected $fillable = 
     [
         'id',

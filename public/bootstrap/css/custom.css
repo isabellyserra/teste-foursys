@@ -14,3 +14,8 @@ float: right;
 text-align: left;
 float: left;
 }
+
+.padding
+{
+    padding-left: 50px;
+}

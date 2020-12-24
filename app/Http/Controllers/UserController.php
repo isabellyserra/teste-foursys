@@ -13,5 +13,18 @@ class UserController extends Controller
         $users = User::orderBy('name', 'ASC')->paginate(10);
         return view('Users.index', compact('request', 'users'));
     }
+
+    public function show()
+    {
+        $user = User::findOrFail(1);
+        return view('Users.show', compact('user'));
+    }
+
+    public function create($user_id)
+    {
+        $user = User::findOrNew($user_id);
+
+        return view('Users.create', compact('user'));
+    }
     
 }
