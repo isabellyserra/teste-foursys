@@ -67,6 +67,9 @@
             {{ $user->created_at->format('d/m/Y') }} 
         </div>
     </div>
+    <div class="center mt-5">
+        <a href="{{ url('/') }}" class="btn btn-info">Voltar</a>
+    </div>
 </div>
 
 @endsection

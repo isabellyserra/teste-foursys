@@ -8,7 +8,7 @@
     <link href="{{ asset ('js/datepicker/jquery-ui.min.css')}}" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('fontawesome/css/all.css') }}">
     <link rel="stylesheet" href="{{ asset('js/select2/select2.min.css') }}">
-    
+    <link rel="stylesheet" href="{{ asset('js/select2/select2.min.css') }}">
     
     <title>Teste Foursys</title>
 </head>
@@ -26,8 +26,6 @@
         </div>
     </div>
 </body>
-
-
 <script type="text/javascript" src="{{ asset ('js/jquery.js') }}"></script>
 <script type="text/javascript" src="{{ asset('bootstrap/js/bootstrap.bundle.js') }}"></script>
 <script type="text/javascript" src="{{ asset('bootstrap/js/bootstrap.js') }}"></script>
@@ -35,3 +33,5 @@
 <script src="{{ asset ('js/maskmoney/dist/jquery.mask.js') }}"></script>
 <script src="{{ asset('js/select2/select2.full.js') }}"></script>
 <script src="{{ asset('js/datepicker/jquery-ui.min.js') }}"></script>
+
+@yield('scripts')
